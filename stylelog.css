@@ -1,0 +1,39 @@
+*{ 
+    box-sizing: border-box;
+    
+}
+a {
+color: #ffbe33;
+}
+a:hover{
+   color: #e69c00 ;
+}
+html {
+font-family: sans-serif;
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
+}
+.btn-primary  {
+background-color: #ffbe33;
+border-radius: 30px;
+}
+.btn-primary:hover{
+    background-color: #e69c00 ;
+}
+.btn btn-secondary ml-2{
+    border-radius: 30px;
+}
+
+.wrapper { 
+width: 360px;
+padding: 20px;
+background-color: #222831;
+color: #ffffff;
+}
+
+.wrapper>h2
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    text-align: center;
+}

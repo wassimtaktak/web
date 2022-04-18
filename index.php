@@ -1,3 +1,13 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -150,6 +160,11 @@
             </ul>
             <!--iconet-->
             <div class="user_option">
+               <!-- recherche -->
+               <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
               <a href="" class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
@@ -177,14 +192,6 @@
                   </g>
                 </svg>
               </a>
-              <div class="container h-100">
-                <div class="d-flex justify-content-center h-100">
-                    <div class="searchbar">
-                        <input class="search_input" type="text" name="" placeholder="Search...">
-                        <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
           </div>
         </nav>
       </div>
@@ -199,10 +206,13 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      Ralouu the caterer
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                      i'm delighted for your arrival . You're more than welcomed to order whatever you desire on my website or you can come get your food yourself .
+                      <br>I'm positive that you will like what you will taste therefore 
+                      <br>Don't be shy Try everything :) 
+                      <br>*special discount every wednesday*
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -498,7 +508,7 @@
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Feane
+              Ralouu
             </a>
             <p>
               Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
@@ -537,7 +547,7 @@
       <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
+          <a> mouch Free Html Templates rana TEFDHA7NA :) </a><br><br>
           &copy; <span id="displayYear"></span> Distributed By
           <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
         </p>
