@@ -29,32 +29,32 @@
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-                            <!-- dropdown button.// -->
-                            <li class="nav-item dropdown custom-dropdown">
+                             <!-- dropdown button.// -->
+                             <li class="nav-item dropdown custom-dropdown">
                               <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">starter</a>
                                <ul class="dropdown-menu">
                                 <div class="mega-menu d-flex">
                                   <div class="lista">
                                     <ul class="list-unstyled">
-                                      <li><a href="#">Code </a></li>
-                                      <li><a href="#">Fonts </a></li>
-                                      <li><a href="#">HTML Templates </a></li>
-                                      <li><a href="#">Mockups </a></li>
-                                      <li><a href="#">Logo </a></li>
-                                      <li><a href="#">PSD Mockups </a></li>
+                                      <li><a href="#">Salad </a></li>
+                                      <li><a href="#">Bruschetta  </a></li>
+                                      <li><a href="#">Soup </a></li>
+                                      <li><a href="#">Nachos </a></li>
+                                  <!--      <li><a href="#"> </a></li>-->
+                                   <!--     <li><a href="#"> </a></li>-->
                                     </ul>
                                   </div>
-                                  <div class="lista">
-                                    <ul class="list-unstyled">
-                                      <li><a href="#">Sketch App(32) </a></li>
-                                      <li><a href="#">User Interface(61) </a></li>
-                                      <li><a href="#">WordPress(73) </a></li>
-                                      <li><a href="#">User Experience(88) </a></li>
-                                      <li><a href="#">WebGL(19) </a></li>
-                                      <li><a href="#">Mockups(93) </a></li>
-                                    </ul>
+                                <!--  <div class="lista">
+                                    <ul class="list-unstyled"> -->
+                                   <!--     <li><a href="#"></a></li>-->
+                                   <!--     <li><a href="#"></a></li>-->
+                                    <!--    <li><a href="#"></a></li>-->
+                                    <!--    <li><a href="#"></a></li>-->
+                                    <!--    <li><a href="#"></a></li>-->
+                                     <!--   <li><a href="#"></a></li>-->
+                                  <!--  </ul>
                                   </div>
-                                </div>
+                                </div> -->
               
                                </ul>
                            </li>
@@ -65,25 +65,25 @@
                   <div class="mega-menu d-flex">
                     <div class="lista">
                       <ul class="list-unstyled">
-                        <li><a href="#">Code </a></li>
-                        <li><a href="#">Fonts </a></li>
-                        <li><a href="#">HTML Templates </a></li>
-                        <li><a href="#">Mockups </a></li>
-                        <li><a href="#">Logo </a></li>
-                        <li><a href="#">PSD Mockups </a></li>
+                        <li><a href="#">Hamburger </a></li>
+                        <li><a href="#">Pizza</a></li>
+                        <li><a href="#">Pasta </a></li>
+                      <!--  <li><a href="#"></a></li> -->
+                       <!-- <li><a href="#"></a></li>-->
+                      <!--  <li><a href="#"></a></li>-->
                       </ul>
                     </div>
-                    <div class="lista">
-                      <ul class="list-unstyled">
-                        <li><a href="#">Sketch App(32) </a></li>
-                        <li><a href="#">User Interface(61) </a></li>
-                        <li><a href="#">WordPress(73) </a></li>
-                        <li><a href="#">User Experience(88) </a></li>
-                        <li><a href="#">WebGL(19) </a></li>
-                        <li><a href="#">Mockups(93) </a></li>
-                      </ul>
+                  <!--  <div class="lista">
+                      <ul class="list-unstyled"> -->
+                     <!--     <li><a href="#"></a></li>-->
+                       <!--   <li><a href="#"></a></li>-->
+                       <!--   <li><a href="#"></a></li>-->
+                      <!--    <li><a href="#"></a></li>-->
+                      <!--    <li><a href="#"></a></li>-->
+                      <!--    <li><a href="#"></a></li>-->
+                  <!--    </ul>
                     </div>
-                  </div>
+                  </div> -->
 
                  </ul>
              </li>
@@ -94,25 +94,25 @@
                                 <div class="mega-menu d-flex">
                                   <div class="lista">
                                     <ul class="list-unstyled">
-                                      <li><a href="#">Code </a></li>
-                                      <li><a href="#">Fonts </a></li>
-                                      <li><a href="#">HTML Templates </a></li>
-                                      <li><a href="#">Mockups </a></li>
-                                      <li><a href="#">Logo </a></li>
-                                      <li><a href="#">PSD Mockups </a></li>
+                                      <li><a href="#">cheesecake</a></li>
+                                      <li><a href="#">tiramisu</a></li>
+                                      <li><a href="#">Cake</a></li>
+                                      <li><a href="#">fruit salad</a></li>
+                                    <!--    <li><a href="#"></a></li> -->
+                                     <!--   <li><a href="#"></a></li>-->
                                     </ul>
                                   </div>
-                                  <div class="lista">
-                                    <ul class="list-unstyled">
-                                      <li><a href="#">Sketch App(32) </a></li>
-                                      <li><a href="#">User Interface(61) </a></li>
-                                      <li><a href="#">WordPress(73) </a></li>
-                                      <li><a href="#">User Experience(88) </a></li>
-                                      <li><a href="#">WebGL(19) </a></li>
-                                      <li><a href="#">Mockups(93) </a></li>
-                                    </ul>
+                                <!--  <div class="lista"
+                                   <ul class="list-unstyled"> -->
+                                  <!--      <li><a href="#"></a></li>-->
+                                  <!--      <li><a href="#"></a></li>-->
+                                   <!--     <li><a href="#"></a></li>-->
+                                   <!--     <li><a href="#"></a></li>-->
+                                    <!--    <li><a href="#"></a></li>-->
+                                   <!--     <li><a href="#"></a></li>-->
+                                 <!--   </ul>
                                   </div>
-                                </div>
+                                </div> -->
               
                                </ul>
                            </li>
