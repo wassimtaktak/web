@@ -56,8 +56,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(mysqli_stmt_fetch($stmt)){
                         if(password_verify($password, $hashed_password)){
                             // Password is correct, so start a new session
-                            session_start();
-                            
+
+                            if(!isset($_SESSION)) 
+                            { 
+                                session_start(); 
+                            } 
                             // Store data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
@@ -256,7 +259,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </header>
     <!-- end header section -->
   </div>
-  <section class="vh-100" style="background-color: white;">
+  <section class="vh-100login" style="background-color: white;">
    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
       <div class="container h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
