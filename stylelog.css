@@ -20,16 +20,16 @@ border-radius: 30px;
 .btn-primary:hover{
     background-color: #e69c00 ;
 }
-.btn btn-secondary ml-2{
+.btn-primary2 {
     border-radius: 30px;
+    background-color:#A9A9A9;
+
+}
+.btn-primary2:hover{
+    background-color: gray ;
 }
 
-.wrapper { 
-width: 360px;
-padding: 20px;
-background-color: #222831;
-color: #ffffff;
-}
+
 
 .wrapper>h2
 {
