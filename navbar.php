@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
               </li>
                              <!-- dropdown button.// -->
                              <li class="nav-item dropdown custom-dropdown">
@@ -36,26 +36,12 @@
                                 <div class="mega-menu d-flex">
                                   <div class="lista">
                                     <ul class="list-unstyled">
-                                      <li><a href="#">Salad </a></li>
-                                      <li><a href="#">Bruschetta  </a></li>
-                                      <li><a href="#">Soup </a></li>
-                                      <li><a href="#">Nachos </a></li>
-                                  <!--      <li><a href="#"> </a></li>-->
-                                   <!--     <li><a href="#"> </a></li>-->
+                                      <li><a href="menu.php?id=Salad">Salad </a></li>
+                                      <li><a href="menu.php?id=Bruschetta">Bruschetta  </a></li>
+                                      <li><a href="menu.php?id=Soup">Soup </a></li>
+                                      <li><a href="menu.php?id=Nachos">Nachos </a></li>
                                     </ul>
                                   </div>
-                                <!--  <div class="lista">
-                                    <ul class="list-unstyled"> -->
-                                   <!--     <li><a href="#"></a></li>-->
-                                   <!--     <li><a href="#"></a></li>-->
-                                    <!--    <li><a href="#"></a></li>-->
-                                    <!--    <li><a href="#"></a></li>-->
-                                    <!--    <li><a href="#"></a></li>-->
-                                     <!--   <li><a href="#"></a></li>-->
-                                  <!--  </ul>
-                                  </div>
-                                </div> -->
-              
                                </ul>
                            </li>
               <!-- dropdown button.// -->
@@ -65,26 +51,11 @@
                   <div class="mega-menu d-flex">
                     <div class="lista">
                       <ul class="list-unstyled">
-                        <li><a href="#">Hamburger </a></li>
-                        <li><a href="#">Pizza</a></li>
-                        <li><a href="#">Pasta </a></li>
-                      <!--  <li><a href="#"></a></li> -->
-                       <!-- <li><a href="#"></a></li>-->
-                      <!--  <li><a href="#"></a></li>-->
+                        <li><a href="menu.php?id=Hamburger">Hamburger </a></li>
+                        <li><a href="menu.php?id=Pizza">Pizza</a></li>
+                        <li><a href="menu.php?id=Pasta">Pasta </a></li>
                       </ul>
                     </div>
-                  <!--  <div class="lista">
-                      <ul class="list-unstyled"> -->
-                     <!--     <li><a href="#"></a></li>-->
-                       <!--   <li><a href="#"></a></li>-->
-                       <!--   <li><a href="#"></a></li>-->
-                      <!--    <li><a href="#"></a></li>-->
-                      <!--    <li><a href="#"></a></li>-->
-                      <!--    <li><a href="#"></a></li>-->
-                  <!--    </ul>
-                    </div>
-                  </div> -->
-
                  </ul>
              </li>
                             <!-- dropdown button.// -->
@@ -94,26 +65,12 @@
                                 <div class="mega-menu d-flex">
                                   <div class="lista">
                                     <ul class="list-unstyled">
-                                      <li><a href="#">cheesecake</a></li>
-                                      <li><a href="#">tiramisu</a></li>
-                                      <li><a href="#">Cake</a></li>
-                                      <li><a href="#">fruit salad</a></li>
-                                    <!--    <li><a href="#"></a></li> -->
-                                     <!--   <li><a href="#"></a></li>-->
+                                      <li><a href="menu.php?id=cheesecake">cheesecake</a></li>
+                                      <li><a href="menu.php?id=tiramisu">tiramisu</a></li>
+                                      <li><a href="menu.php?id=Cake">Cake</a></li>
+                                      <li><a href="menu.php?id=fruit salad">fruit salad</a></li>
                                     </ul>
                                   </div>
-                                <!--  <div class="lista"
-                                   <ul class="list-unstyled"> -->
-                                  <!--      <li><a href="#"></a></li>-->
-                                  <!--      <li><a href="#"></a></li>-->
-                                   <!--     <li><a href="#"></a></li>-->
-                                   <!--     <li><a href="#"></a></li>-->
-                                    <!--    <li><a href="#"></a></li>-->
-                                   <!--     <li><a href="#"></a></li>-->
-                                 <!--   </ul>
-                                  </div>
-                                </div> -->
-              
                                </ul>
                            </li>
               <li class="nav-item">
@@ -131,6 +88,9 @@
                   </a>
                   <a href="panier.php" class="cart_link">
                   <i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:22px"></i>
+                  </a>;
+                  <a href="profile.php" class="user_link">
+                  <i class="fa fa-user" aria-hidden="true"></i>
                   </a>';
 
                 }
